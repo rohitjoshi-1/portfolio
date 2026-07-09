@@ -4,7 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaBars, FaTimes } from "react-icons/fa";
 
 const navLinks = [
-  { name: "About", to: "about" },
+  { name: "Abouuut", to: "about" },
   { name: "Skills", to: "skills" },
   { name: "Projects", to: "projects" },
   { name: "Experience", to: "experience" },
