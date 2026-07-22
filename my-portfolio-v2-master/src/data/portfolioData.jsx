@@ -48,7 +48,7 @@ export const education = [
     institution: "Kumaon University",
     degree: "Bachelor of Computer Science",
     duration: "2023-2026",
-    score: "CGPA: 6.5/10",
+    score: "CGPA: 6.4/10",
   },
 ];
 
