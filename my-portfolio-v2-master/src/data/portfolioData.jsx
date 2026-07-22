@@ -4,6 +4,7 @@ import {
   FaEnvelope,
   FaReact,
   FaNodeJs,
+  FaFigma,
   FaDatabase,
   FaCode,
   FaHtml5,
@@ -12,6 +13,7 @@ import {
   FaAws,
   FaPython,
 } from "react-icons/fa";
+import { VscVscode } from "react-icons/vsc";
 import {
   SiExpress,
   SiMongodb,
@@ -24,6 +26,12 @@ import {
   SiGooglecloud,
   SiTypescript,
 } from "react-icons/si";
+import numpyLogo from "../assets/numpy.svg";
+import pandasLogo from "../assets/pandas.svg";
+import { 
+  siNumpy, 
+  siPandas 
+} from "simple-icons";
 
 export const personalInfo = {
   name: "Rohit joshi",
@@ -40,154 +48,174 @@ export const education = [
     institution: "Kumaon University",
     degree: "Bachelor of Computer Science",
     duration: "2023-2026",
-    score: "CGPA: 6.1/10",
+    score: "CGPA: 6.5/10",
   },
 ];
 
 export const projects = [
   {
-    title: "DevLink",
-    tech: ["React JS", "Node.js", "Express.js", "MongoDB"],
+    title: "WORKING ON PROJECT",
+    tech: [],
     description: [
-      <>
-        Designed and developed a{" "}
-        <span className="text-text-primary font-medium">
-          full-stack developer community platform
-        </span>{" "}
-        enabling users to create profiles, share projects, and collaborate.
-      </>,
-      <>
-        Owned the system end-to-end by implementing{" "}
-        <span className="text-text-primary font-medium">
-          frontend architecture
-        </span>
-        , <span className="text-text-primary font-medium">backend APIs</span>,
-        and{" "}
-        <span className="text-text-primary font-medium">
-          secure authentication
-        </span>
-        .
-      </>,
+      // <>
+      //   Designed and developed a{" "}
+      //   <span className="text-text-primary font-medium">
+      //     full-stack developer community platform
+      //   </span>{" "}
+      //   enabling users to create profiles, share projects, and collaborate.
+      // </>,
+      // <>
+      //   Owned the system end-to-end by implementing{" "}
+      //   <span className="text-text-primary font-medium">
+      //     frontend architecture
+      //   </span>
+      //   , <span className="text-text-primary font-medium">backend APIs</span>,
+      //   and{" "}
+      //   <span className="text-text-primary font-medium">
+      //     secure authentication
+      //   </span>
+      //   .
+      // </>,
     ],
-    date: "June 2025 – July 2025",
-    githubLink: "https://github.com/rohitjoshi-1",
-    liveLink: "https://devlink-umber.vercel.app",
-    category: "Full Stack",
-    icon: <FaReact size={24} className="text-accent-1" />,
-    image: "/DevLink.png",
+    // date: "June 2025 – July 2025",
+    // githubLink: "https://github.com/rohitjoshi-1",
+    // liveLink: "https://devlink-umber.vercel.app",
+    // category: "Full Stack",
+    // icon: <FaReact size={24} className="text-accent-1" />,
+    // image: "/DevLink.png",
   },
-  {
-    title: "MaViK-39",
-    tech: ["RAG", "IoT", "React.js", "TensorFlow", "Cloud"],
-    description: [
-      <>
-        <span className="text-accent-1 font-semibold">
-          National Finalist SIH 2025
-        </span>
-        .
-      </>,
-      <>
-        Delivered an{" "}
-        <span className="text-text-primary font-medium">
-          IoT-enabled lab management
-        </span>{" "}
-        web application, decreasing equipment downtime by{" "}
-        <span className="text-accent-1 font-semibold">25%</span>.
-      </>,
-      <>
-        Integrated{" "}
-        <span className="text-text-primary font-medium">
-          biometric authentication
-        </span>
-        , voice interface, and{" "}
-        <span className="text-text-primary font-medium">
-          RAG-powered AI chatbot
-        </span>
-        , improving operational efficiency by{" "}
-        <span className="text-accent-1 font-semibold">40%</span>.
-      </>,
-    ],
-    date: "Nov 2025 – Dec 2025",
-    githubLink: "https://github.com/rohitjoshi-1",
-    liveLink: "https://mavik-39.vercel.app",
-    category: "IoT & AI",
-    icon: <FaCode size={24} className="text-accent-1" />,
-    image: "/MaViK-39.jpeg",
-  },
-  {
-    title: "AyurTrace",
-    tech: ["Hyperledger Fabric", "IoT", "React.js", "Smart Contracts"],
-    description: [
-      <>
-        <span className="text-accent-1 font-semibold">
-          1st Place Winner SIH 2025 Round 1
-        </span>
-        .
-      </>,
-      <>
-        Directed a{" "}
-        <span className="text-text-primary font-medium">
-          blockchain-based supply chain
-        </span>{" "}
-        web application for Ayurvedic herb traceability.
-      </>,
-      <>
-        Implemented{" "}
-        <span className="text-text-primary font-medium">
-          immutable on-chain tracking
-        </span>{" "}
-        with QR verification, ensuring{" "}
-        <span className="text-accent-1 font-semibold">
-          100% supply chain transparency
-        </span>
-        .
-      </>,
-    ],
-    date: "Aug 2025 – Sep 2025",
-    githubLink: "https://github.com/rohitjoshi-1",
-    liveLink: "https://ayurtrace-sepia.vercel.app",
-    category: "Blockchain",
-    icon: <FaDatabase size={24} className="text-accent-1" />,
-    image: "/AyurTrace.png",
-  },
+  // {
+  //   title: "MaViK-39",
+  //   tech: ["RAG", "IoT", "React.js", "TensorFlow", "Cloud"],
+  //   description: [
+  //     <>
+  //       <span className="text-accent-1 font-semibold">
+  //         National Finalist SIH 2025
+  //       </span>
+  //       .
+  //     </>,
+  //     <>
+  //       Delivered an{" "}
+  //       <span className="text-text-primary font-medium">
+  //         IoT-enabled lab management
+  //       </span>{" "}
+  //       web application, decreasing equipment downtime by{" "}
+  //       <span className="text-accent-1 font-semibold">25%</span>.
+  //     </>,
+  //     <>
+  //       Integrated{" "}
+  //       <span className="text-text-primary font-medium">
+  //         biometric authentication
+  //       </span>
+  //       , voice interface, and{" "}
+  //       <span className="text-text-primary font-medium">
+  //         RAG-powered AI chatbot
+  //       </span>
+  //       , improving operational efficiency by{" "}
+  //       <span className="text-accent-1 font-semibold">40%</span>.
+  //     </>,
+  //   ],
+  //   date: "Nov 2025 – Dec 2025",
+  //   githubLink: "https://github.com/rohitjoshi-1",
+  //   liveLink: "https://mavik-39.vercel.app",
+  //   category: "IoT & AI",
+  //   icon: <FaCode size={24} className="text-accent-1" />,
+  //   image: "/MaViK-39.jpeg",
+  // },
+  // {
+  //   title: "AyurTrace",
+  //   tech: ["Hyperledger Fabric", "IoT", "React.js", "Smart Contracts"],
+  //   description: [
+  //     <>
+  //       <span className="text-accent-1 font-semibold">
+  //         1st Place Winner SIH 2025 Round 1
+  //       </span>
+  //       .
+  //     </>,
+  //     <>
+  //       Directed a{" "}
+  //       <span className="text-text-primary font-medium">
+  //         blockchain-based supply chain
+  //       </span>{" "}
+  //       web application for Ayurvedic herb traceability.
+  //     </>,
+  //     <>
+  //       Implemented{" "}
+  //       <span className="text-text-primary font-medium">
+  //         immutable on-chain tracking
+  //       </span>{" "}
+  //       with QR verification, ensuring{" "}
+  //       <span className="text-accent-1 font-semibold">
+  //         100% supply chain transparency
+  //       </span>
+  //       .
+  //     </>,
+  //   ],
+  //   date: "Aug 2025 – Sep 2025",
+  //   githubLink: "https://github.com/rohitjoshi-1",
+  //   liveLink: "https://ayurtrace-sepia.vercel.app",
+  //   category: "Blockchain",
+  //   icon: <FaDatabase size={24} className="text-accent-1" />,
+  //   image: "/AyurTrace.png",
+  // },
 ];
 
 export const skills = {
-  languages: [
-    // { name: "C/C++", icon: <SiCplusplus /> },
-    // { name: "Java", icon: <FaJava /> },
-    // { name: "JavaScript", icon: <SiJavascript /> },
-    // { name: "TypeScript", icon: <SiTypescript /> },
-    { name: "Python", icon: <FaPython /> },
-    { name: "SQL", icon: <FaDatabase /> },
-    { name: "HTML5", icon: <FaHtml5 /> },
-    { name: "CSS3", icon: <FaCss3Alt /> },
+    languages: [
+      // { name: "C/C++", icon: <SiCplusplus /> },
+      // { name: "Java", icon: <FaJava /> },
+      // { name: "JavaScript", icon: <SiJavascript /> },
+      // { name: "TypeScript", icon: <SiTypescript /> },
+      { name: "Python", icon: <FaPython /> },
+      { name: "MYSQL", icon: <FaDatabase /> },
+      { name: "HTML5", icon: <FaHtml5 /> },
+      { name: "CSS3", icon: <FaCss3Alt /> },
+    ],
+  frameworksAndLibraries: [
+    {
+        name: "NUMPY",
+        icon: (
+          <img
+          src={numpyLogo}
+          alt="NumPy"
+          style={{ width: "32px", height: "32px" }}
+          />
+        ),
+       },
+       {
+        name: "PANDAS",
+        icon: (
+          <img
+          src={pandasLogo}
+          alt="Pandas"
+          style={{ width: "32px", height: "32px" }}
+          />
+        ),
+       },
+    // { name: "React JS", icon: <FaReact /> },
+    // { name: "Next.js", icon: <FaCode /> },
+    // { name: "Node JS", icon: <FaNodeJs /> },
+    // { name: "Express JS", icon: <SiExpress /> },
+    // { name: "Springboot", icon: <SiSpringboot /> },
+    // { name: "React Native", icon: <FaReact /> },
   ],
-  // frameworksAndLibraries: [
-  //   { name: "React JS", icon: <FaReact /> },
-  //   { name: "Next.js", icon: <FaCode /> },
-  //   { name: "Node JS", icon: <FaNodeJs /> },
-  //   { name: "Express JS", icon: <SiExpress /> },
-  //   { name: "Springboot", icon: <SiSpringboot /> },
-  //   { name: "React Native", icon: <FaReact /> },
-  // ],
   toolsAndPlatforms: [
     { name: "Git & GitHub", icon: <FaGithub /> },
     { name: "AWS", icon: <FaAws /> },
-    // { name: "MongoDB", icon: <SiMongodb /> },
+    { name: "MongoDB", icon: <SiMongodb /> },
     { name: "n8n", icon: <FaCode /> },
-    // { name: "Postman", icon: <SiPostman /> },
-    // { name: "Google Cloud", icon: <SiGooglecloud /> },
+    { name: "Figma", icon: <FaFigma /> },
+    { name: "VS Code", icon: <VscVscode /> },
     // { name: "Firebase", icon: <SiFirebase /> },
     // { name: "FFmpeg", icon: <FaCode /> },
   ],
   coreCompetencies: [
-    "Presentations",
-    "Oratory",
-    "Team Leadership",
-    "Event Hosting",
-    "Agile Methodologies",
+    "Adaptability & Resilience",
+    "Strategic Problem Solving",
+    "Analytical Thinking",
+    "Time Management",
     "Problem Solving",
+    "Continuous Learning",
   ],
 };
 

@@ -28,14 +28,14 @@ const Projects = () => {
                 <div className="relative rounded-md overflow-hidden shadow-2xl border border-white/10 group-hover:border-accent-1/30 transition-all duration-300">
                   {/* Overlay */}
                   <div className="absolute inset-0 bg-secondary-bg/20 group-hover:bg-transparent transition-all duration-500 z-10"></div>
-                  <img
+                  {/* <img
                     src={
                       project.image ||
                       "https://placehold.co/800x500/1a1a2e/00f5c3?text=Project+Preview"
                     }
                     alt={project.title}
                     className="w-full h-auto object-cover transform transition-transform duration-700 grayscale group-hover:grayscale-0"
-                  />
+                  /> */}
                 </div>
                 {/* Decorative blob behind image */}
                 <div

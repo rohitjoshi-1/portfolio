@@ -52,11 +52,11 @@ const Skills = () => {
               items={skills.languages}
               delayOffset={0.1}
             />
-            {/* <SkillCategory
+            { <SkillCategory
               title="Frameworks & Libraries"
               items={skills.frameworksAndLibraries}
               delayOffset={0.2}
-            /> */}
+            /> }
             <SkillCategory
               title="Tools & Platforms"
               items={skills.toolsAndPlatforms}
