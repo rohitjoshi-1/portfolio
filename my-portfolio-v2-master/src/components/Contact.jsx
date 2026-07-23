@@ -34,7 +34,7 @@ const Contact = () => {
           target="_blank"
           className="inline-block px-10 py-4 border-2 border-accent-1 text-accent-1 font-bold rounded-md hover:bg-accent-1/10 transition-all duration-300 transform hover:-translate-y-1 shadow-lg hover:shadow-accent-1/20"
         >
-          Say Hello
+          Let's Connect ⭐
         </a>
       </motion.div>
     </section>
