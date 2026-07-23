@@ -39,7 +39,7 @@ export const personalInfo = {
   email: "official.rohitjoshii@gmail.com",
   linkedin: "https://www.linkedin.com/in/rohit-joshi-1105542b5/",
   github: "https://github.com/rohitjoshi-1",
-  // resumeLink: "/AditiAryaResume.pdf",
+  // resumeLink: "/.pdf",
   bio: "Passionate AI/ML Engineer and UI/UX Designer dedicated to building intelligent solutions and designing intuitive digital experiences. With a strong foundation in Artificial Intelligence, Machine Learning, and user-centered design, I enjoy solving real-world problems through innovation and creativity.",
 };
 
