@@ -51,14 +51,10 @@ const Hero = () => {
     >
       {/* Animated Background Blobs */}
       <motion.div
-        animate={{ x: [0, 100, 0], y: [0, -50, 0], scale: [1, 1.2, 1] }}
-        transition={{ duration: 10, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute top-20 left-20 w-72 h-72 bg-accent-1/20 rounded-full blur-[100px]"
+        className="absolute top-20 left-20 w-72 h-72 bg-accent-1/20 rounded-full blur-[140px]"
       />
       <motion.div
-        animate={{ x: [0, -100, 0], y: [0, 50, 0], scale: [1, 1.5, 1] }}
-        transition={{ duration: 12, repeat: Infinity, ease: "easeInOut" }}
-        className="absolute bottom-20 right-20 w-96 h-96 bg-accent-2/20 rounded-full blur-[120px]"
+        className="absolute bottom-20 right-20 w-96 h-96 bg-accent-2/20 rounded-full blur-[140px]"
       />
 
       <div className="container mx-auto px-6 relative z-10 text-center">
@@ -95,7 +91,7 @@ const Hero = () => {
               texts={[
                 "build intelligent systems.",
                 "create AI-powered solutions.",
-                "learn. build. innovate.",
+                "learn. build. and innovate.",
                 "love innovation.",
               ]}
             />

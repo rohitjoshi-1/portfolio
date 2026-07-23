@@ -10,7 +10,7 @@ const Contact = () => {
       className="py-32 bg-secondary-bg flex items-center justify-center text-center relative overflow-hidden"
     >
       {/* Glowing circle behind */}
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent-1/5 rounded-full blur-[100px] pointer-events-none"></div>
+      {/* <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] bg-accent-1/5 rounded-full blur-[100px] pointer-events-none"></div> */}
 
       <motion.div
         initial={{ opacity: 0, scale: 0.9 }}

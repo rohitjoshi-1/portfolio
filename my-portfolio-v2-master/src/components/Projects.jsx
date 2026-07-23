@@ -8,7 +8,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-32 bg-primary-bg">
       <div className="container mx-auto px-6 lg:px-12">
-        <SectionTitle>Some Things I've Built</SectionTitle>
+        <SectionTitle>Some Things I've Built.</SectionTitle>
 
         <div className="flex flex-col gap-24 mt-20">
           {projects.map((project, index) => (
